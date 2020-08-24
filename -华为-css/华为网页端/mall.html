@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>华为</title>
+    <link rel="stylesheet" href="./css/mall.css">
+</head>
+
+<body>
+    <script>
+        window.onload = function() {
+            let topbackButton = document.querySelector(".topback-button")
+            topbackButton.onclick = function() {
+                window.pageYOffset = 0
+            }
+            window.onscroll = function() {
+                let fix = document.querySelector(".fix")
+                if (window.pageYOffset > 400) {
+                    fix.style.position = "fixed"
+                    fix.style.top = 0
+                    fix.style.left = 0
+                } else {
+                    fix.style.position = "static"
+                }
+            }
+        }
+    </script>
+    <div class="all">
+        <div class="top">
+            <div class="top-left">
+                <a href="./主页.html">
+                    <img src="img/mall.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="img/huawei.png" alt="">
+                </a>
+            </div>
+            <div class="top-mid">
+                <a href="#">手机</a>
+                <a href="#">笔记本电脑</a>
+                <a href="#">平板&穿戴</a>
+                <a href="#">智能家居</a>
+                <a href="#">配件</a>
+                <a href="#">企业购</a>
+            </div>
+            <div class="top-right">
+                <div>
+                    <input type="text">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="lunbotu">
+            <ul class="lunbo">
+                <li>
+                    <a href="#">
+                        <img src="img/高考.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/高考1.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/高考2.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="fix">
+            <div>高考有礼</div>
+            <span>|</span>
+            <div>爆款手机</div>
+            <span>|</span>
+            <div>智能家居</div>
+            <span>|</span>
+            <div>智能穿戴</div>
+            <span>|</span>
+            <div>潮流配件</div>
+        </div>
+        <div class="miaosha">
+            <img src="img/秒杀.jpg" alt="">
+        </div>
+        <div class="rexiao">
+            <img src="img/热销爆款.jpg" alt="">
+        </div>
+        <div class="reixiao">
+            <div>
+                <a href="#">
+                    <img src="img/12期免息.png" alt="">
+                    <div class="pie">享12期免息</div>
+                    <div class="baokuan-content">
+                        <p>HUAWEI P40 Pro 5G</p>
+                        <p>从教室一隅到广阔天地 无限视界无限美</p>
+                        <div class="price">
+                            <span>￥5988</span><span>起</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/matebook 14.png" alt="">
+                    <div class="pie">直降100+3期免息</div>
+                    <div class="changxiao">
+                        <img src="img/畅销.png" alt="">
+                    </div>
+                    <div class="baokuan-content">
+                        <p>MateBook 14 2020款</p>
+                        <p>往日全屏实力 今朝一鸣惊人</p>
+                        <div class="price">
+                            <span>￥6299</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/华为mate30 5G.png" alt="">
+                    <div class="pie">12期免息|赠多重好礼</div>
+                    <div class="changxiao">
+                        <img src="img/畅销.png" alt="">
+                    </div>
+                    <div class="baokuan-content">
+                        <p>HUAWEI Mate 30 5G</p>
+                        <p>硬实力祝你撑起高考大场面</p>
+                        <div class="price">
+                            <span>￥4499</span><span>起</span>
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/华为 matepad.png" alt="">
+                    <div class="pie">限时特惠200元</div>
+                    <div class="baokuan-content">
+                        <p>HUAWEI MatePad Pro</p>
+                        <p>艺术天赋，在此大触觉醒</p>
+                        <div class="price">
+                            <span>￥3599</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/12期免息.png" alt="">
+                    <div class="pie">享12期免息</div>
+                    <div class="baokuan-content">
+                        <p>HUAWEI P40 Pro 5G</p>
+                        <p>从教室一隅到广阔天地 无限视界无限美</p>
+                        <div class="price">
+                            <span>￥5988</span><span>起</span>
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/matebook 14.png" alt="">
+                    <div class="pie">直降100+3期免息</div>
+                    <div class="changxiao">
+                        <img src="img/畅销.png" alt="">
+                    </div>
+                    <div class="baokuan-content">
+                        <p>MateBook 14 2020款</p>
+                        <p>往日全屏实力 今朝一鸣惊人</p>
+                        <div class="price">
+                            <span>￥6299</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/华为mate30 5G.png" alt="">
+                    <div class="pie">12期免息|赠多重好礼</div>
+                    <div class="changxiao">
+                        <img src="img/畅销.png" alt="">
+                    </div>
+                    <div class="baokuan-content">
+                        <p>HUAWEI Mate 30 5G</p>
+                        <p>硬实力祝你撑起高考大场面</p>
+                        <div class="price">
+                            <span>￥4499</span><span>起</span>
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="img/华为 matepad.png" alt="">
+                    <div class="pie">限时特惠200元</div>
+                    <div class="baokuan-content">
+                        <p>HUAWEI MatePad Pro</p>
+                        <p>艺术天赋，在此大触觉醒</p>
+                        <div class="price">
+                            <span>￥3599</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <div class="pintuan">
+            <img src="img/拼团.jpg" alt="">
+            <img src="img/降价.jpg" alt="">
+        </div>
+        <div class="tu">
+            <img src="img/翻牌抽奖.jpg" alt="">
+        </div>
+        <div class="choujiang">
+            <div class="choujiang-left">
+                <a href="#"><img src="img/奖品1.png" alt=""></a>
+                <a href="#"><img src="img/谢谢参与.png" alt=""></a>
+                <a href="#"><img src="img/奖品2.png" alt=""></a>
+                <a href="#"><img src="img/奖品3.png" alt=""></a>
+                <a href="#"><img src="img/开始翻牌.png" alt="" class="fanpai"></a>
+                <a href="#"><img src="img/奖品3.png" alt=""></a>
+                <a href="#"><img src="img/游戏手办.png" alt=""></a>
+                <a href="#"><img src="img/奖品1.png" alt=""></a>
+                <a href="#"><img src="img/奖品2.png" alt=""></a>
+            </div>
+            <div class="choujiang-right">
+                <div class="gzuize">
+                    <h2>活动规则</h2>
+                    <span>1、活动时间：<br>2020年7月1日00:00-7月31日23:59</span><br>
+                    <span>2、活动规则：<br>活动期间用户登陆华为商城帐号，进入活动页面，点击参与抽奖，同一帐号每天有3次免费抽奖机会，</span>
+                    <span>抽奖机会当天有效不累计。活动页面翻牌抽奖奖品及次数共享。</span>
+                    <a href="#"><span>更多详情></span></a>
+                </div>
+                <div class="mingdan">
+                    <h2>中奖名单</h2>
+                    <div class="mingdanlun">
+                        <ul class="minglun">
+                            <li>183****1261&nbsp;&nbsp; 抽中 荣耀品牌 10元优惠券</li>
+                            <li>139****4148 &nbsp;&nbsp;抽中 华为品牌 20元优惠券</li>
+                            <li>133****5933 &nbsp;&nbsp;抽中 荣耀品牌 10元优惠券</li>
+                            <li>135****3538 &nbsp;&nbsp;抽中 荣耀品牌 10元优惠券</li>
+                            <li>183****1261 &nbsp;&nbsp;抽中 荣耀品牌 10元优惠券</li>
+                            <li>139****4148 &nbsp;&nbsp;抽中 华为品牌 20元优惠券</li>
+                            <li>133****5933 &nbsp;&nbsp;抽中 荣耀品牌 10元优惠券</li>
+                            <li>135****3538&nbsp; &nbsp;抽中 荣耀品牌 10元优惠券</li>
+                            <li>183****1261&nbsp;&nbsp; 抽中 荣耀品牌 10元优惠券</li>
+                            <li>139****4148&nbsp;&nbsp;抽中 华为品牌 20元优惠券</li>
+                            <li>133****5933 &nbsp;&nbsp;抽中 荣耀品牌 10元优惠券</li>
+                            <li>135****3538 &nbsp;&nbsp;抽中 荣耀品牌 10元优惠券</li>
+                            <li>183****1261 &nbsp;&nbsp;抽中 荣耀品牌 10元优惠券</li>
+                            <li>139****4148&nbsp;&nbsp;抽中 华为品牌 20元优惠券</li>
+                            <li>133****5933 &nbsp;&nbsp;抽中 荣耀品牌 10元优惠券</li>
+                            <li>133****5933 &nbsp;&nbsp;抽中 荣耀品牌 10元优惠券</li>
+                            <li>135****3538 &nbsp;&nbsp;抽中 荣耀品牌 10元优惠券</li>
+                            <li>183****1261 &nbsp;&nbsp;抽中 荣耀品牌 10元优惠券</li>
+                            <li>139****4148&nbsp;&nbsp;抽中 华为品牌 20元优惠券</li>
+                            <li>133****5933 &nbsp;&nbsp;抽中 荣耀品牌 10元优惠券</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <img src="img/商城底部.png" alt="">
+            <img src="img/商城底部文字.png" alt="">
+        </div>
+        <div class="topback">
+            <img src="img/返回顶部.jpg" alt="">
+            <a href="#" class="topback-button"></a>
+        </div>
+    </div>
+
+</body>
+
+</html>

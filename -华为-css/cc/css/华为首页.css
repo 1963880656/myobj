@@ -1,0 +1,122 @@
+.top img,
+.tuijian>a img {
+    width: 7.5rem;
+}
+
+.top a {
+    display: block;
+}
+
+.poster>a img {
+    width: 3.5rem;
+    background-color: #EBEEF3;
+}
+
+.poster {
+    display: flex;
+    width: 7.5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.poster a {
+    position: relative;
+    width: 3.75rem;
+    height: 5.5rem;
+}
+
+.pie {
+    position: absolute;
+    height: 0.35rem;
+    top: 3.15rem;
+    border-radius: 0 0.125rem 0 0.125rem;
+    left: 0.15rem;
+    font-size: .1rem;
+    background-color: #000;
+    line-height: 0.35rem;
+    color: #fff;
+    z-index: 200;
+}
+
+.wenben {
+    margin: .3rem 0;
+    padding: .05rem 0;
+}
+
+.wenben p:first-child {
+    color: #000;
+    font-weight: bold;
+    font-size: .2rem;
+}
+
+.wenben p:last-of-type {
+    font-size: .15rem;
+    color: #cccccc;
+}
+
+.wenben span {
+    color: #000;
+    font-weight: bold;
+}
+
+.er {
+    font-size: .05rem;
+}
+
+.change {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.exchange>a img {
+    width: 7.0rem;
+    margin: 0 .25rem;
+}
+
+.oneimg,
+.oneimg img {
+    width: 7.0rem;
+}
+
+.ccimg img {
+    width: 3.2rem;
+}
+
+.ccimg {
+    width: 3.2rem;
+    height: 3.0rem;
+    padding: 0 .27rem;
+    display: block;
+}
+
+.change a {
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    margin-top: .2rem;
+    display: block;
+}
+
+.oneimg p:last-of-type {
+    color: #aaaaaa;
+}
+
+.change>div>a p:first-of-type {
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.change a>div {
+    display: flex;
+    justify-content: space-between;
+    color: #aaaaaa;
+    margin: 0 .1rem;
+}
+
+.bottom img {
+    width: 7.5rem;
+}

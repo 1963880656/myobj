@@ -1,0 +1,118 @@
+.top {
+    display: flex;
+    align-items: center;
+    width: 7.5rem;
+    height: 1.1rem;
+    background-color: #fff;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.search img {
+    width: .5rem;
+}
+
+.wenben img {
+    width: .6rem;
+}
+
+.search {
+    width: 5.24rem;
+    height: .66rem;
+    background-color: #F3f5f7;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: .33rem;
+}
+
+.search-btn {
+    width: .75rem;
+    height: .66rem;
+    line-height: .66rem;
+    text-align: center;
+}
+
+.search-wenzi {
+    height: .66rem;
+    line-height: .66rem;
+    padding-right: .2rem;
+    color: #8E8E8E;
+}
+
+.commodity {
+    margin-top: 1.1rem;
+    width: 2.4rem;
+    height: 11.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.commodity a {
+    height: 1.0rem;
+    width: 2.4rem;
+    color: #000;
+    font-size: 0.25rem;
+    text-align: center;
+}
+
+.pop-up {
+    position: absolute;
+    left: 2.4rem;
+    top: 0;
+    width: 5.1rem;
+    margin-bottom: 1rem;
+}
+
+.first {
+    color: red;
+    border-right: 2px solid red;
+}
+
+.tt img {
+    width: 5.1rem;
+    border-radius: 0.2rem;
+}
+
+.tot img {
+    width: 1.6rem;
+    border-radius: 0.2rem;
+}
+
+.pop-up p {
+    height: 1.0rem;
+    line-height: 1rem;
+}
+
+.phone-box {
+    margin-top: 0.2rem;
+    overflow: auto;
+}
+
+.phine-box1 {
+    display: flex;
+    width: 5.1rem;
+}
+
+.phine-box1 span {
+    display: inline-block;
+    width: 1.6rem;
+}
+
+.phine-box1 img {
+    width: 1.2rem;
+}
+
+.commodity>a>div:first-of-type {
+    position: fixed;
+    text-align: center;
+    line-height: 1rem;
+    width: 2.3rem;
+}

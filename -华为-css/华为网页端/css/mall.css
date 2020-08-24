@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+.pintuan img,
+.tu img,
+.bottom img,
+.rexiao img,
+.miaosha img,
+.lunbo img,
+.topback img {
+    width: 100%;
+}
+
+.fix {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    line-height: 80px;
+    background-color: #EBEBEB;
+    padding: 0 10%;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 100;
+}
+
+.top {
+    height: 74px;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.top-mid a {
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #3a3a3a;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.top-mid a:hover {
+    color: #ca141d;
+    border-bottom: 3px solid #ca141d;
+}
+
+.top img {
+    height: 36px;
+}
+
+.top-right input {
+    width: 285px;
+    height: 30px;
+    background-color: #fafafa;
+    border-radius: 15px;
+    background-image: url(../img/搜索.jpg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 254px 5px;
+    border: 1px solid #ccc;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+.lunbotu {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+.lunbo {
+    width: 5760px;
+    height: 600x;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: lunbotu 16s infinite;
+}
+
+@keyframes lunbotu {
+    0%,
+    15% {
+        left: 0;
+    }
+    25%,
+    40% {
+        left: -1920px;
+    }
+    55%,
+    70% {
+        left: -3840px;
+    }
+}
+
+.lunbotu::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.miaosha {
+    margin: 20px auto;
+}
+
+.reixiao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 5%;
+}
+
+.reixiao img {
+    width: 290px;
+    height: 290px;
+    background-color: #EBEEF3;
+}
+
+.reixiao>div a {
+    display: inline-block;
+    position: relative;
+    width: 290px;
+    height: 460px;
+    border: 1px solid #000;
+    margin-top: 30px;
+}
+
+.pie {
+    position: absolute;
+    height: 30px;
+    background-color: #F86471;
+    color: #ffffff;
+    padding: 2px;
+    box-sizing: border-box;
+    top: 260px;
+    left: 0;
+    border-radius: 15px 15px 15px 0;
+    line-height: 30px;
+}
+
+.changxiao img {
+    width: 72px;
+    height: 72px;
+}
+
+.changxiao {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.baokuan-content {
+    padding-top: 10px;
+}
+
+.baokuan-content p:first-of-type {
+    font-size: 22px;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.baokuan-content p:last-of-type {
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.price {
+    background-color: #7C9ADF;
+    height: 36px;
+    width: 136px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 18px;
+    margin: 10px auto;
+}
+
+.price span:first-of-type {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.price span:nth-child(2) {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.choujiang-left img:not(.fanpai) {
+    width: 220px;
+    height: 160px;
+}
+
+.choujiang-left {
+    width: 715px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fanpai {
+    width: 144px;
+    height: 144px;
+}
+
+.choujiang {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.choujiang-right {
+    width: 435px;
+    justify-content: start;
+    border: 1px solid #ccc;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.mingdanlun {
+    width: 269px;
+    height: 145px;
+    position: relative;
+    overflow: hidden;
+    margin: 60px auto;
+}
+
+.minglun li {
+    width: 269px;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.minglun {
+    width: 269px;
+    height: 570px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: mingtu 16s infinite;
+}
+
+@keyframes mingtu {
+    0%,
+    15% {
+        top: 0;
+    }
+    25%,
+    40% {
+        top: -145px;
+    }
+    55%,
+    70% {
+        top: -290px;
+    }
+    75%,
+    90% {
+        top: -435px;
+    }
+}
+
+.mingdanlun::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.gzuize {
+    color: #908C8A;
+}
+
+.gzuize span {
+    overflow: hidden;
+}
+
+.gzuize a {
+    color: #ca141d;
+    display: block;
+}
+
+.topback {
+    position: relative;
+}
+
+.topback a {
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 94px;
+    background-color: transparent;
+    top: 0;
+    left: 640px;
+}
